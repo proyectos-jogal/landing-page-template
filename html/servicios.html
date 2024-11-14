@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <title>Tu Página</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo.svg" />
+    <!--   Bootstrap css   -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <!--   css3   -->
+    <link rel="stylesheet" href="../style.css" />
+    <!--   Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css"
+    />
+    <!--   Google Fonts   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--   Animate On Scroll   -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-custom text-white">
+      <div class="container-fluid">
+        <!-- Logo y título -->
+        <a class="navbar-brand text-white" href="#">
+          <img
+            src="./images/logo.svg"
+            alt="Logo"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          IT Businness
+        </a>
+        <!-- Menú Hamburguesa -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Menú -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="../index.html#nosotros"
+                >Nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="../index.html#business"
+                >Business</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="../index.html#contacto"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Servicios -->
+    <section
+      class="servicios d-flex justify-content-center align-items-center vh-100 py-5"
+    >
+      <div
+        id="servicios"
+        class="container d-flex flex-column text-center"
+        style="align-items: center"
+      >
+        <div class="text-x2-center py-2">
+          <h2
+            class="h3 text-justify text-center my-3 font-weight-bold"
+            id="blue"
+          >
+            Nuestros Servicios
+          </h2>
+        </div>
+
+        <div
+          class="row d-flex justify-content-center align-items-center"
+          id="cards"
+        >
+          <div
+            class="tarjeta col-lg-4 col-xl-4 col-md-12 col-sm-12 text-justify p-3 pl-4 pt-4 border mb-2"
+            id="card"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
+            <!-- Contenido de la primera tarjeta -->
+            <i class="fas fa-store pb-3 fa-2x"></i>
+            <h3 class="font-weight-bold" id="blue">Landing Page</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus quo error at natus. Labore, maxime facere
+              perspiciatis officia modi facilis?
+            </p>
+          </div>
+          <div
+            class="tarjeta col-lg-4 col-xl-4 col-md-12 col-sm-12 text-justify p-3 pl-4 pt-4 border mb-2"
+            id="card"
+            data-aos="fade-down"
+            data-aos-duration="3000"
+          >
+            <!-- Contenido de la segunda tarjeta -->
+            <i class="fas fa-globe pb-3 fa-2x"></i>
+            <h3 class="font-weight-bold" id="blue">Páginas Web</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus quo error at natus. Labore, maxime facere
+              perspiciatis officia modi facilis?
+            </p>
+          </div>
+          <div
+            class="tarjeta col-lg-4 col-xl-4 col-md-12 col-sm-12 text-justify p-3 pl-4 pt-4 border mb-2"
+            id="card"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <!-- Contenido de la tercera tarjeta -->
+            <i class="fas fa-server pb-3 fa-2x"></i>
+            <h3 class="font-weight-bold" id="blue">Sitios Web</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus quo error at natus. Labore, maxime facere
+              perspiciatis officia modi facilis?
+            </p>
+          </div>
+        </div>
+        <div class="text-center" id="serviceButton">
+          <a href="/index.html#business" class="btn btn-primary">
+            Ir a Business
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="fixed-bottom text-white mt-5 p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Sección 1</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              commodo, velit et pharetra rhoncus, mi lacus venenatis nisl, vel
+              aliquet nunc nisi et sapien.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h5>Sección 2</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              commodo, velit et pharetra rhoncus, mi lacus venenatis nisl, vel
+              aliquet nunc nisi et sapien.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h5>Sección 3</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              commodo, velit et pharetra rhoncus, mi lacus venenatis nisl, vel
+              aliquet nunc nisi et sapien.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Librerías de jQuery y Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <!-- JS de Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- JS de AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
